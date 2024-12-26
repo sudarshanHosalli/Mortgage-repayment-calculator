@@ -496,7 +496,8 @@ body {
     padding: 3rem;
   }
 
-  .input-section {
+  .repayments > p {
+    font-size: 3rem;
   }
 
   .result-section {
