@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the project](./screenshot/screenshot.jpg)
+![Screenshot of the project](./screenshot/screenshot.PNG)
 
 ### Links
 
