@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="two-sec">
+        <section class="input-section">
+          <header>
+            <h1>Mortgage Calculator</h1>
+            <p class="clear-all">Clear All</p>
+          </header>
+
+          <form class="userForm">
+            <div class="form-row" data-index="0">
+              <label for="Mortgage-Amount">Mortgage Amount</label>
+              <div class="input-container">
+                <div class="input-icon icons"><span>£</span></div>
+                <input
+                  type="number"
+                  id="Mortgage-Amount"
+                  name="Mortgage-Amount"
+                  class="Mortgage-Amount input"
+                  min="0"
+                  step="0.01"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="full-width">
+              <div class="form-row" data-index="1">
+                <label for="Mortgage-Term">Mortgage Term</label>
+                <div class="input-mortgage-container">
+                  <input
+                    type="number"
+                    id="Mortgage-Term"
+                    name="Mortgage-Term"
+                    class="Mortgage-Term input"
+                    min="1"
+                    max="50"
+                    step="1"
+                    required
+                  />
+                  <div class="input-icon years-icon icons">
+                    <span>years</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row" data-index="2">
+                <label for="Interest-Rate">Interest Rate</label>
+
+                <div class="input-mortgage-container">
+                  <div class="input-icon rate-icon icons"><span>%</span></div>
+                  <input
+                    type="number"
+                    id="Interest-Rate"
+                    name="Interest-Rate"
+                    class="Interest-Rate input"
+                    min="0"
+                    max="100"
+                    step="0.01"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+
+            <fieldset class="checkbox-group">
+              <legend>Mortgage Type</legend>
+              <div class="checkboxes-container">
+                <div class="checkbox-container">
+                  <input
+                    type="checkbox"
+                    id="Repayment"
+                    class="single-checkbox"
+                  />
+                  <span class="custom-checkbox">
+                    <span class="dot"></span>
+                  </span>
+                  <label for="Repayment">Repayment</label>
+                </div>
+
+                <div class="checkbox-container">
+                  <input
+                    type="checkbox"
+                    id="Interest-Only"
+                    class="single-checkbox"
+                  />
+                  <span class="custom-checkbox">
+                    <span class="dot"></span>
+                  </span>
+                  <label for="Interest-Only">Interest Only</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <button class="calculate-btn">
+              <img
+                src="./assets/images/icon-calculator.svg"
+                alt="Calculate"
+              />Calculate Repayments
+            </button>
+          </form>
+        </section>
+        <section class="result-section"></section>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
