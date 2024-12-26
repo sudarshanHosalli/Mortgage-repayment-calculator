@@ -32,12 +32,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the project](./screenshot.jpg)
+![Screenshot of the project](./screenshot/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com](https://github.com/sudarshanHosalli/Mortgage-repayment-calculator)
+- Live Site URL: [live site](https://mortgage-r-calculator.netlify.app/)
 
 ## My process
 
@@ -94,7 +94,6 @@ In future projects, I want to focus on:
 
 ## Author
 
-- Website - [Your Name](https://www.your-site.com)
 - Frontend Mentor - [@sudarshanHosalli](https://www.frontendmentor.io/profile/sudarshanHosalli)
 - GIthub - [@sudarshanHosalli](https://github.com/sudarshanHosalli)
 
